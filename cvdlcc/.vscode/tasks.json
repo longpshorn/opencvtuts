@@ -61,9 +61,9 @@
                 "-lopencv_photo",
                 "-lopencv_imgproc",
                 "-lopencv_core",
-                "display_image/display_image.cpp",
+                "day01/day01.cpp",
                 "-o",
-                "display_image/display_image.out",
+                "day01/day01.out",
                 "--debug"
             ],
             "group": {

@@ -9,14 +9,17 @@ using namespace std;
 
 int main(int argc, char **argv)
 {
-    std::string imageName("background.jpg");
+    std::string imageName("HappyFish.jpg");
     if (argc > 1)
     {
         imageName = argv[1];
     }
+    else
+    {
+        imageName = cv::samples::findFile(imageName);
+    }
 
     cv::Mat image;
-    //cv::samples::findFile(imageName)
     std::cout << "Image name: " << imageName << std::endl;
     image = cv::imread(imageName, cv::IMREAD_COLOR);
     if (image.empty())
