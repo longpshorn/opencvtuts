@@ -8,9 +8,9 @@
             "name": "(lldb) Launch)",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/display_image/display_image.out",
+            "program": "${workspaceFolder}/opencv/bin/01_display_image.out",
             "args": [
-                "/Users/patrick/projects/opencvtuts/display_image/background.jpg"
+                "/Users/patrick/projects/opencvtuts/opencv/background.jpg"
             ],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

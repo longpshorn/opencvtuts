@@ -61,9 +61,9 @@
                 "-lopencv_photo",
                 "-lopencv_imgproc",
                 "-lopencv_core",
-                "display_image/display_image.cpp",
+                "opencv/02_save_image.cpp",
                 "-o",
-                "display_image/display_image.out",
+                "opencv/bin/02_save_image.out",
                 "--debug"
             ],
             "group": {
