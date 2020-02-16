@@ -12,10 +12,11 @@
             "args": [
                 "/Users/patrick/projects/opencvtuts/opencv/background.jpg"
             ],
-            "stopAtEntry": false,
+            "stopAtEntry": true,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": true,
+            "miDebuggerPath": "/Users/patrick/lldb-mi/usr/local/bin/lldb-mi",
             "MIMode": "lldb",
             "preLaunchTask": "Build display_image",
             "logging": {

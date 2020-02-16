@@ -14,9 +14,13 @@ int main(int argc, char **argv)
     {
         imageName = argv[1];
     }
-    else
+    try
     {
-        imageName = cv::samples::findFile(imageName);
+        std::string temp = cv::samples::findFile(imageName);
+        imageName = temp;
+    }
+    catch (...)
+    {
     }
 
     cv::Mat image;
